@@ -1,0 +1,37 @@
+{
+  "name": "cgpa-result-compilation",
+  "version": "1.0.0",
+  "description": "eases the problem of result compilation",
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhizterkeyz/CGPA-result-compilation.git"
+  },
+  "author": "DreamyMarkup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhizterkeyz/CGPA-result-compilation/issues"
+  },
+  "homepage": "https://github.com/mhizterkeyz/CGPA-result-compilation#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.15.2",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.11"
+  }
+}
